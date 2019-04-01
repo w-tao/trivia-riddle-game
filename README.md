@@ -47,7 +47,7 @@ The computer randomly generates a question with answers beginning with 1,2,3. Yo
 If you get the question wrong you will get double the amount of points the question is worth, off from your score. With harder question the more points you will get when you get it right. The questions come with a time limit but the time limit will get longer with the harder questions. If you get the question right the points the question is worth will be added to your score, you start with 0 points.
 
 **Controls:**
-The game will randomly generate a question with 3 different answers, for example, 1.dog 2.cat 3.goat, so if you believe that the answer is "dog" you simply type "1" and see if you're right or wrong. 
+The game will generate a question which you have to answer by typing the answer you believe is correct. Do not use caps.  
 
 **Jumpscare:** 
 The easier the question is the more terrifying the jumpscare is and the harder the question is the less terrifying the picture is. The picture will go away after 5 seconds. After you answer a question the computer will not tell you if you're right or wrong so there will be a 5 second period before it either shows you the jumpscare or moves on to the next question.
