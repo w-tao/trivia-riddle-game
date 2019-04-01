@@ -41,7 +41,7 @@ ________________________________________________________________________________
 ## ¿Trivia Game?
 
 **Basic Idea:**
-The computer randomly generates a question with answers beginning with 1,2,3. You type the number corresponding with the answer you believe is correct. If you get the question right, you will continue on but this time the question we be harder (Each time you get a question right the next question gets harder and harder). If you get the question wrong you will get a jump scare and the difficulty of the question is reset. 
+The computer will generate a question which you have to answer. You type the answer you believe is correct. If you get the question right, you will continue on, but this time the question we be harder (Each time you get a question right the next question gets harder and harder). If you get the question wrong you will get a jump scare and the difficulty of the question is reset. 
 
 **Scoring:**
 If you get the question wrong you will get double the amount of points the question is worth, off from your score. With harder question the more points you will get when you get it right. The questions come with a time limit but the time limit will get longer with the harder questions. If you get the question right the points the question is worth will be added to your score, you start with 0 points.
