@@ -41,17 +41,16 @@ ________________________________________________________________________________
 ## ¿Trivia Game?
 
 **Basic Idea:**
-The computer will generate a question which you have to answer. You type the answer you believe is correct. Each question will get harder and harder, no matter if you get it right or wrong. If you get the question wrong you will get a jump scare. 
+The computer will generate a question which you have to answer. You type the answer you believe is correct. 
 
 **Scoring:**
 If you get the question wrong you will get double the amount of points the question is worth, off from your score. With harder question the more points you will get when you get it right. The questions come with a time limit but the time limit will get longer with the harder questions. If you get the question right the points the question is worth will be added to your score, you start with 0 points.
 
 **Controls:**
-The game will generate a question which you have to answer by typing the answer you believe is correct. Do not use caps.  
+The game will randomly generate a question which you have to answer by typing the answer you believe is correct. Do not use caps.  
 
-**Jumpscare:** 
-The easier the question is the more terrifying the jumpscare is and the harder the question is the less terrifying the picture is. The picture will go away after 5 seconds. After you answer a question the computer will not tell you if you're right or wrong so there will be a 5 second period before it either shows you the jumpscare or moves on to the next question.
-
+**Bonus:**
+After each question there will be a gigantic crossword puzzle which the the correct answer you just typed in will be somewhere inside. To answer the question you have to type the number on the right first (The layer where the letter is) then type the number on the type second (The column where the letter is). Do NOT add spaces between the numbers.
 _______________________________________________________________________________________________________________________
 ## Adventure Game ##
 
