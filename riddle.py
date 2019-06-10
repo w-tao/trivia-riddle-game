@@ -11,11 +11,11 @@ class Riddle_Game:
         global right
         choice = var.get()
         if(choice == self.correct_choice):
-            label = tk.Label(view, text="Correct ツ")
+            label = tk.Label(view, text="Correct ツ", fg = 'forestgreen')
             right += 1
             
         else:
-            label = tk.Label(view, text="yOuR wRoNg >:")
+            label = tk.Label(view, text="yOuR wRoNg >:", fg = 'red')
             
         label.pack(side='top')
         
@@ -40,10 +40,10 @@ class Riddle_Game:
         button_d.pack(anchor='w')
 
         timer_font = ('Wawati SC', 69, "italic")		
-        self.clock = tk.Label(view, text="", width=10, pady=100, font=timer_font)		
+        self.clock = tk.Label(view, text="", width=10, pady=100, font=timer_font, fg = 'orange')		
         self.clock.pack(side='bottom')		
         self.remaining = 0		
-        self.countdown(10)		
+        self.countdown(30)		
 
         return view
 
@@ -92,7 +92,7 @@ number_of_questions = len(questions)
 
 # Check the content loading
 root = tk.Tk()
-root.geometry('700x500')
+root.geometry('1200x500')
 root.title("Adventure Trivia Riddle Reaction Game")
 button = tk.Button(root, text="Begin", command=ask_question)
 #button.pack(side='top')
