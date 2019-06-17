@@ -16,6 +16,7 @@ class Riddle_Game:
             
         else:
             label = tk.Label(view, text="yOuR wRoNg >:", fg = 'red')
+            go_to_reaction()
             
         label.pack(side='top')
         
@@ -61,6 +62,9 @@ class Riddle_Game:
             self.clock.configure(text="%d" % self.remaining)
             self.remaining = self.remaining - 1
             self.clock.after(1000, self.countdown)
+
+def go_to_reaction():
+    import game.py
 
 def ask_question():
     global questions, root, index, button, right, number_of_questions 
