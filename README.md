@@ -1,12 +1,13 @@
 # trivia-riddle-game
 
+How to start the game: Click into the 'adventure.py' file
 ________________________________________________________________________________________________________________________
 ## Riddle Game 🔎
 
 **Basic Idea:**                                                                                                      
-Every riddle that happens here depends on the adventure part of the game. If the person comes across 3 doors in a mansion, it can give them a riddle.
-If the person doesn't solve the riddle corecctly, they get an annoying sound until they get a trivia question or a riddle correct. 
-If the person gets it correct, the game will "jumpscare" the player with a meme. 
+The riddle part of this game depends on if the person decides to pick the Trivia Game or the Riddle Game.
+If the person doesn't solve the riddle corecctly, they will be taken to the reaction game and then the end screen.
+If the person gets it correct, the game will continue onto the next question.
 
 **Interface:**     
 There is a question/riddle that appears in the center on the screen. Then it moves to the top of the screen and 4 boxes appear on the bottom of the screen as the answers.
@@ -18,7 +19,8 @@ Riddle: How many months have 28 days?
 - [ ] 6
 - [ ] None
 
-**Scoring:**      
+**Scoring:**    
+(Not added yet.............)
 The game starts with 0 points. The player *might* have negative points if they fail hardcore.
 If the person finished the riddle under 1 minute, they get the rest of the 1 minute added to their points (in seconds). If the player finishes after 1 minute, the time they take will be subtracted from their total points.
 ________________________________________________________________________________________________________________________
@@ -32,6 +34,7 @@ If you lose a question, it won’t tell you if you are right or wrong, but a ran
 If you get the question wrong, you will lose 60 points. The computer will time how long you take, and it will subtract that amount of time from 60 seconds for you to answer the next question, if you get the question right, the amount of time you had left would be added to your points, if you get it wrong, nothing happens to your points.
 
 **Sound:**    
+(Not added yet...............)
 A weird noise is going to be sounding until you finish answering the question.
 
 If they click before the photo appears, they will only have 45 seconds to answer the next question. After that, the game would go back to an adventure/riddle/trivia game.
