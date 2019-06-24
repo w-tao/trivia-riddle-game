@@ -33,7 +33,7 @@ point_teller = Label(screen, text = "Total number of points: " + str(points) + "
 point_teller.pack()
 point_teller.place(x = 300, y = 300)
 
-button_photo = PhotoImage(file = 'project_pictures/' + 'pink(1).gif')
+button_photo = PhotoImage(file = 'project_pictures/' + 'pink.gif')
 button_back = Label(screen, image = button_photo)
 button_setting = Button(screen, text = "Click here to quit!", fg = "Black", font=("HanziPen TC", 15), command = quit)
 button_setting.pack()
