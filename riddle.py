@@ -64,7 +64,7 @@ class Riddle_Game:
             self.clock.after(1000, self.countdown)
 
 def go_to_reaction():
-    import game.py
+    import reaction.py
 
 def ask_question():
     global questions, root, index, button, right, number_of_questions 

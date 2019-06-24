@@ -1,6 +1,6 @@
 import sys
-from tkinter import Tk, PhotoImage, Label, Button
-screen = Tk()
+from tkinter import Tk, PhotoImage, Label, Button, Toplevel
+screen = Toplevel()
 screen.geometry("1000x600")
 
 points = 100
