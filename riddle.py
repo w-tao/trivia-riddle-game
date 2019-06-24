@@ -64,7 +64,7 @@ class Riddle_Game:
             self.clock.after(1000, self.countdown)
 
 def go_to_reaction():
-    import reaction.py
+    import reaction
 
 def ask_question():
     global questions, root, index, button, right, number_of_questions 
@@ -95,7 +95,7 @@ right = 0
 number_of_questions = len(questions)
 
 # Check the content loading
-root = tk.Tk()
+root = tk.Toplevel()
 root.geometry('1200x500')
 root.title("Adventure Trivia Riddle Reaction Game")
 button = tk.Button(root, text="Begin", command=ask_question)

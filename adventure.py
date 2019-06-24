@@ -1,11 +1,11 @@
-from tkinter import Tk, Canvas, PhotoImage, Label, Button 
+from tkinter import Tk, Canvas, PhotoImage, Label, Button
 
 #functions
 def riddle_game():
-    import riddle.py
+    import riddle
 
 def trivia_game():
-    import trivia.py
+    import trivia
 
 #Defining widgets
 main = Tk()
