@@ -39,7 +39,7 @@ picture = Button(root, image = photo, command = stop)
 picture.pack()
 picture.place(x = randint(200, 500), y = randint(200, 500))
 
-button_photo = PhotoImage(file = 'project_pictures/' + 'pink(1).gif')
+button_photo = PhotoImage(file = 'project_pictures/' + 'pink.gif')
 button_back = Label(root, image = button_photo)
 button_setting = Button(root, text = "Click here to quit!", fg = "Black", font=("HanziPen TC", 15), command = quit)
 button_setting.pack()
