@@ -98,9 +98,3 @@ button = tk.Button(root, text="Begin", command=ask_question)
 #button.pack(side='top')
 button.pack(anchor='n')
 root.mainloop()
-
-'''
-background_image = tk.PhotoImage('detective_background.gif')
-background_label = tk.Label(root, image=background_image)
-background_label.pack()
-'''
