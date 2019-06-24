@@ -57,7 +57,7 @@ questions = {
     8: {
         8: "What is it called when you select a section of a string?",
         "o1" : "Slicing",
-        "o2" : "Slection",
+        "o2" : "Selection",
         "o3" : "Choosing",
         "ans": "Slicing"
         },
@@ -137,7 +137,8 @@ def check_answer():
         
 #create widget
 global main
-main = tkinter.Tk()
+root = tkinter.Tk()
+main = tkinter.Toplevel()
 question = tkinter.Message(main, text = questions[len(questions_passed)][len(questions_passed)], width = 150)
 question.grid(row = 0, column = 1)
 global optionw
