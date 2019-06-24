@@ -1,6 +1,6 @@
 # trivia-riddle-game
 
-How to start the game: Click into the 'adventure.py' file
+How to start the game: Download all the files including the pictures so everything runs properly. Run the 'adventure.py' file on your computer.
 ________________________________________________________________________________________________________________________
 ## Riddle Game 🔎
 
