@@ -16,6 +16,7 @@ class Riddle_Game:
             
         else:
             label = tk.Label(view, text="yOuR wRoNg >:", fg = 'red')
+            go_to_reaction()
             
         label.pack(side='top')
         
@@ -62,6 +63,9 @@ class Riddle_Game:
             self.remaining = self.remaining - 1
             self.clock.after(1000, self.countdown)
 
+def go_to_reaction():
+    import game.py
+
 def ask_question():
     global questions, root, index, button, right, number_of_questions 
     if(len(questions) == index + 1):
@@ -73,7 +77,7 @@ def ask_question():
     
 ### Main Script
 # Read from the text file
-with open('questions.txt', "r") as quiz_file:
+with open('riddle_qa.txt', "r") as quiz_file:
     questions = []
     line = quiz_file.readline().rstrip()
     while(line != ""):
